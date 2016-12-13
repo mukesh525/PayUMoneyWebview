@@ -62,7 +62,7 @@
                 android:layout_marginLeft="5dip"
                 android:inputType="textEmailAddress"
                 android:paddingLeft="5dip"
-                android:text="mukeshjha2007@gmail.com"/>
+                android:text="mukesh.jha@vmc.in"/>
         </TableRow>
 
         <TableRow>

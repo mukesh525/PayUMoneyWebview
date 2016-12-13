@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(resultCode == Activity.RESULT_OK){
                 if(data!=null){
+                    Toast.makeText(this, "Paymnet Sucess with Taxn Id : "+data.getStringExtra("transaction_id"), Toast.LENGTH_LONG).show();
                     Log.d("RESPONSE_HASH",data.getStringExtra("transaction_id"));
                 }
             }
