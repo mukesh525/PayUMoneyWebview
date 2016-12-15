@@ -411,4 +411,12 @@ public class PayMentGateWay extends AppCompatActivity {
         }
         return null;
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        webView.clearCache(true);
+        webView.clearHistory();
+        webView.destroy();
+    }
 }
